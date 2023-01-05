@@ -32,9 +32,11 @@
 
         static void Main(string[] args)
         {
-            Add(3, 5);
-            Add(4.53m, 3.10m);
-            Add(3, 6, true);
+            Console.WriteLine(Add(3, 5));
+            var answer = Add(4.53m, 3.10m);
+            Console.WriteLine(answer);
+            var answer2 = Add(1, 0, true);
+            Console.WriteLine(answer2);
         }
     }
 }
